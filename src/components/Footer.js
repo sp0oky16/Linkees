@@ -7,7 +7,7 @@ import '../css/components.css'
 function Footer() {
     return (
         <div className="Footer container">
-            <p><span role="img" aria-label="heart">❤️</span><a href={"#"}>ACR</a></p>
+            <p>Made with <span class="heart">❤️</span> by <a href={"https://acr.lol"}>ACR</a></p>
         </div>
     )
 }
