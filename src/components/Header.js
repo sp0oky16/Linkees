@@ -1,7 +1,7 @@
 import React from 'react'
 import SunIcon from './Icons/SunIcon'
 import MoonIcon from './Icons/MoonIcon'
-import avatar from '../assets/avatar.svg'
+import logo from '../assets/logo.png'
 import '../css/skeleton.css'
 import '../css/normalize.css'
 import '../css/components.css'
@@ -18,10 +18,10 @@ function Header() {
   return (
     <div className="Header container">
       <div className="ten columns Header__inner">
-        <img src={avatar} alt="avatar" />
+        <img src={logo} alt="logo" />
         &nbsp;&nbsp;&nbsp;
         <h2>
-          <b>Sagnik </b>
+          <b>ACR </b>
         </h2>
       </div>
       <button className="switch-theme-button" onClick={handleSwitchTheme}>
