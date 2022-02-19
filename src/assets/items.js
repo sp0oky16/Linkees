@@ -2,7 +2,7 @@ import instagram from '../assets/instagram.png'
 import youtube from '../assets/youtube.jpeg'
 import twitter from '../assets/twitter.png'
 import discord from '../assets/discord.jpg'
-import tiktok from '../assets/tiktok.jpg'
+import tiktok from '../assets/tiktok.png'
 
 const items = [{
     "title": "Discord",
